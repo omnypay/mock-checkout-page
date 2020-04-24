@@ -1,0 +1,17 @@
+{
+    "projectName": "mock-checkout-page",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "/resources/public/js/compiled",
+            "BuildCommand": "shadow-cljs -A dev compile",
+            "StartCommand": "shadow-cljs -A dev watch"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

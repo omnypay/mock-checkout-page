@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"mockcheckoutpagedb6db69a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
